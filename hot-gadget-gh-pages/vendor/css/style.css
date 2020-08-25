@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+/* start navbar custom style */
+.navbar {
+    padding: 15px 0;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0px 2px 7px #dddddd;
+}
+
+.brand-logo {
+    width: 95px;
+    height: auto;
+}
+
+.nav-link {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0px 9px;
+}
+/* end navbar custom style */
+
+
+
+
+/* start header custom style */
+.header {
+    background-image: url("../../img/bg/bg-2.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 106vh;
+}
+
+
+.row-bg {
+    background-image: url(../../img/bg/bg-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10% 75%;
+    height: 86vh;
+}
+
+.best-product h2 {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.best-product p {
+    margin: 29px 0;
+    width: 76%;
+}
+
+.buy-btn {
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 0px 5px 10px;
+    width: 125px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+.buy-btn:hover {
+    background: #FFD019;
+    color: #222222;
+}
+
+
+.carousel-indicators li {
+    width: 19px;
+    height: 13px;
+    background-color: #CECECE;
+    background-clip: padding-box;
+    border: none;
+    border-radius: 40px;
+}
+
+.carousel-indicators .active {
+    width: 45px;
+    background: linear-gradient(to right, #FF9C35, #FFD019);
+}
+/* end header with slider */
+
+
+
+
+
+/* start phone area */
+.phone {
+    margin-bottom: 96px;
+}
+
+.phone a {
+    text-decoration: none;
+}
+
+.see-product {
+    color: #FF9D00;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.card-deck {
+    margin-top: 29px;
+}
+
+.card {
+    padding: 45px 25px 23px;
+    box-shadow: 0px 3px 10px #dddddd;
+    border: none;
+    border-radius: 12px;
+}
+
+.card img {
+    width: 65%;
+    margin: auto;
+}
+
+/* end phone area style */
+
+
+
+
+
+/* start catagory */
+.catagory h2 {
+    margin-top: 145px;
+    margin-bottom: 15px;
+}
+
+.catagory hr {
+    width: 125px;
+    margin: auto;
+    border-bottom: 10px solid yellowgreen;
+    background: linear-gradient(to right, #FF9C35, #FFD019);
+    border-radius: 40px;
+}
+
+.cat-row {
+    margin: 70px 0 96px;
+}
+
+.cat-item-row {
+    padding: 37px 0;
+}
+
+.col-img {
+    width: 90%;
+    padding: 60px 49px;
+    border-radius: 19px 5px;
+    box-shadow: 0px 7px 19px #dddddd;
+}
+/* end catagory area */

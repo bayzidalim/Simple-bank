@@ -4,3 +4,9 @@ body{
 .bank-title{
     text-align: center;
 }
+.submit-area{
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px grey;
+}
